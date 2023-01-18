@@ -19,7 +19,7 @@ export class Picture extends Base {
         }
     }
 
-    getIcon() {
-
+    static isPicture(pic) {
+        return pic instanceof Picture
     }
 }

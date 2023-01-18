@@ -13,5 +13,3 @@ promise.then((e) => {
     console.log('hi')
 })
 
-// global.resolve()
-
